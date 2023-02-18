@@ -1,0 +1,213 @@
+.nav-link{
+    color: black !important;
+}
+
+.nav-link:hover{
+    color: orange !important;
+    transition-duration: 0.2s;
+}
+
+.navbar-brand{
+    color: #7a6960 !important;
+    font-size: xx-large;
+}
+
+.nav-button{
+    border: none;
+    border-radius: 30px;
+    background-color: #ee7843;
+}
+
+.sec1-img{
+    width: 100%;
+    animation: movement 9s infinite;
+}
+
+@keyframes movement{
+    0%{
+        transform: translateY(7px);
+    }
+    25%{
+        transform: translateY(-7px);
+    }
+    50%{
+        transform: translateY(7px);
+    }
+    75%{
+        transform: translateY(-7px);
+    }
+    100%{
+        transform: translateY(7px);
+    }
+}
+
+.sec1-btn{
+    font-size: larger;
+    background-color: #ef7f4d;
+    color: white;
+    border: none;
+    border-radius: 2px;
+}
+
+.sec1{
+    background-color: #fef8f5;
+}
+
+.sec1-title{
+    font-size: 55px;
+    color: #4e4039;
+}
+
+.navbar{
+    box-shadow: 5px -75px 100px 1px black !important;
+}
+
+
+.sec2-btn{
+    font-size: larger;
+    background-color: #eb5d1e;
+    color: white;
+    border: none;
+    border-radius: 2px;
+}
+
+.sec2-title{
+    font-size: 40px;
+    color: #4e4039;
+}
+
+.sec2-img{
+    width: 100%;
+}
+
+.sec2-txt{
+    font-size: medium;
+}
+
+.fa-solid{
+    font-size: 40px !important;
+}
+
+.cart{
+    background-color: white;
+    border-radius: 30px;
+}
+
+.cart:hover{
+    border-bottom: #ef7f4d solid 3px;
+    transition-duration: 0.5s;
+}
+
+.nav-link{
+    background-color: white !important;
+    color: black;
+    font-weight: bold;
+}
+
+.nav-link:hover{
+    background-color: white !important;
+    color: #eb5d1e !important;
+    font-weight: bold;
+}
+
+.nav-link.active{
+    background-color: white !important;
+    color: #eb5d1e !important;
+    font-weight: bold;
+}
+
+.img-fluid{
+    border-radius: 10px !important;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #fef8f5;
+    color: #343a40;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  /* Dropdown button on hover & focus */
+  .dropbtn:hover, .dropbtn:focus {
+    color: #eb5d1e;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fef8f5;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 5px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    cursor: default;
+    background-color: #fef8f5;
+  }
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+
+.lay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+    background-color: #766c67;;
+}
+
+.sec5-img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.sec5-img:hover .overlay {
+    width: 100%;
+  }
+
+.cont:hover{
+    background-color: #eb5d1e !important;
+    transition-duration: 0.5s;
+}
+
+.cont:hover .ic{
+    color: white !important;
+    transition-duration: 0.5s;
+}
+
+.sec6-btn{
+    background-color: #ef7f4d;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
